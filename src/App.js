@@ -4,6 +4,7 @@ import FilterByName from './components/FilterByName';
 import FilterByNumericValues from './components/FilterByNumericValues';
 import FiltersList from './components/FiltersList';
 import Table from './components/Table';
+import SortPlanets from './components/SortPlanets';
 import MyProvider from './context/MyProvider';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <FilterByName />
       <FilterByNumericValues />
       <FiltersList />
+      <SortPlanets />
       <Table />
     </MyProvider>
   );
